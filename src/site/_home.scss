@@ -1,0 +1,32 @@
+// Homepage CSS
+#jumbotron{
+    img{
+        filter: brightness(50%); 
+    }
+}
+
+#quote-block{
+    padding: $padding 0;
+
+    b{
+        font-size: 2em;
+
+        i{
+            color: $error;
+        }
+    }
+
+    blockquote{
+        font-size: $font-size;
+        margin-left: $margin;
+    }
+
+    blockquote:before{
+        content: '"';
+        font-size: 2.5em;
+        position: absolute;
+        margin-left: ($margin * -1);
+        font-family: Times New Roman;
+        color: $error;
+    }
+}
