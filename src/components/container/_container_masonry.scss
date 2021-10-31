@@ -1,0 +1,71 @@
+/*
+ * Container Masonry effect
+ */ 
+
+.masonry-content-container{
+    .cmp-container .aem-Grid{
+        /*
+        display: flex;
+        flex-wrap: wrap;
+        */
+        columns: 3 auto;
+        column-gap: 1rem;
+
+        .teaser{
+            /*
+            width: 33%;
+            display: flex;
+            */
+            float: none;
+            width: auto;
+            margin: 0 1rem 1rem 0;
+        }
+
+        .cmp-teaser{
+            width: 100%;
+        }
+
+        .cmp-teaser__content{
+            position: absolute;
+            top: auto;
+            left: 15px;
+            right: 15px;
+            bottom: 1rem;
+            -webkit-transform: none;
+            transform: none;
+            max-height: 35rem;
+            height: auto;
+        }
+
+        .cmp-teaser__pretitle{
+            text-align: left;
+        }
+        
+        .cmp-teaser__title{
+            text-align: left;
+        }
+
+        .cmp-teaser__content{
+            text-align: left;
+        }
+
+        .cmp-teaser__description{
+            text-align: left;
+        }
+
+        .cmp-teaser__action-container{
+            -webkit-box-pack: left;
+            justify-content: left;
+        }
+
+        .cmp-teaser__image{
+            max-height: 35rem;
+            height: auto;
+        }
+
+        .cmp-teaser__image img{
+            height: auto;
+            filter: brightness(60%);
+        }
+    }
+}

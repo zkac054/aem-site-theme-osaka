@@ -1,6 +1,17 @@
 .cmp-title {
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
+
+  ::after{
+    color: $error;
+    display: block;
+    height: 3px;
+    background-color: $error;
+    width: 50px;
+    content: " ";
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+  }
 }
 .cmp-title__text {
   margin: 0;

@@ -7,7 +7,7 @@
   color: $text-on-background;
   background-color: $accent;
   border: 0.125em solid $accent;
-  border-radius: 1.56em;
+  border-radius: $border-radius;
 
   &:hover {
     background-color: $accent-hover;

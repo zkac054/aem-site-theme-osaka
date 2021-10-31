@@ -1,0 +1,52 @@
+/*
+ * Content Fragment Styles
+ */ 
+
+/*
+ * Tour Table
+ */ 
+ .cmp--tour-table{
+    .cmp-contentfragment__title{
+        display: none;
+    }
+
+    .cmp-contentfragment{
+        border: 2px solid #e8ecec;
+        border-radius: 8px;
+        padding: 12px 20px;
+    }
+
+    .cmp-contentfragment__elements{
+        ::after{
+            clear: both;
+            content: " ";
+            display: block;
+        }
+    }
+
+    .cmp-contentfragment__element{
+        width: 50%;
+        float: left;
+        border-bottom: 1px dashed #ddd;
+
+        :nth-child(-n+2){
+            border-bottom: none;
+        }
+    }
+
+    .cmp-contentfragment__element-title{
+        width: 45%;
+        display: inline-block;
+        line-height: 60px;
+        font-weight: bold;
+
+    }
+
+    .cmp-contentfragment__element-value{
+        width: 45%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+ }

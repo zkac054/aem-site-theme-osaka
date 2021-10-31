@@ -59,7 +59,7 @@
   color: $text-on-background;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 1.56em;
+  border-radius: $border-radius;
 }
 
 .cmp-teaser__action-link:first-child {
